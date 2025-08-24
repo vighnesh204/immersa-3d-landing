@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immersa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page1">
+      <nav>
+        <h1 class="logo">
+          <a href="#">Immersa</a>
+        </h1>
+        <div class="navigate">
+          <a href="#">Origin</a>
+          <a href="#">Vision</a>
+          <a href="#">Experience</a>
+          <a href="#">Connect</a>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="left">
+          <h1>Step Into The Future: A 3D Experience Beyond Imagination</h1>
+          <p>
+            Modern 3D interfaces are no longer just visuals—they’re immersive
+            journeys. With seamless animations, lifelike depth, and intuitive
+            interactions, our design redefines how users connect with digital
+            experiences. Step beyond flat screens into a future where every
+            movement feels alive, every detail feels real, and every interaction
+            pulls you deeper into the story of innovation.
+          </p>
+          <div class="btn">
+            <button id="contact">Contact Us</button>
+            <button id="started">Get Started</button>
+          </div>
+        </div>
+        <div class="right">
+            <spline-viewer id="threeD" url="https://prod.spline.design/0WxMzvDr4sCJQ6yB/scene.splinecode" style="background: transparent"></spline-viewer>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.80/build/spline-viewer.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
