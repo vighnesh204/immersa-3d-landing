@@ -52,11 +52,6 @@ As a fresher exploring modern web technologies, I found Spline to be an amazing 
 
 ---
 
-## 🚀 Live Demo  
-
-👉 [View Demo]()
----
-
 ## 🖥️ Run Locally  
 
 Clone the project: 
