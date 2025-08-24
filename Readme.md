@@ -59,7 +59,7 @@ As a fresher exploring modern web technologies, I found Spline to be an amazing 
 
 ## 🖥️ Run Locally  
 
-Clone the project:  
+Clone the project: https://github.com/vighnesh204/immersa-3d-landing.git
 
 ```bash
 git clone 
